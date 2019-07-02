@@ -1,5 +1,14 @@
-#class for Model3 goes here
-#Feel free to change the name of the class
-class Model3
-  
+
+class Appearance
+    attr_reader :actors, :seasons
+    @@all = []
+    def initialize (actors, seasons)
+        @actors = actors
+        @seasons = seasons
+        self.class.all << self
+    end
+    def self.all
+        @@all
+    end
+    
 end
