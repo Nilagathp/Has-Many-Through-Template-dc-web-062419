@@ -11,7 +11,7 @@ america = Actors.new("America Ferrera", "April 18, 1984", "Female")
 ben = Actors.new("Ben Feldman", "May 27, 1980", "Male")
 lauren = Actors.new("Lauren Ash", "February 4, 1983", "Female")
 
-hereiam = 
+hereiam = Appearance.new("America Ferrera", "")
 
 
 binding.pry
